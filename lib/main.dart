@@ -16,9 +16,7 @@ class MyApp extends StatelessWidget {
     return BlocProvider<DraggableBloc>(
       create: (context) => DraggableBloc(),
       child: MaterialApp(
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
+        theme: ThemeData.dark(),
         home: TextImage(),
       ),
     );
